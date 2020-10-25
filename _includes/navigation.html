@@ -1,0 +1,12 @@
+<nav>
+  <ul class="nav">
+    {% for item in site.data.navigation %}
+    <li {% if page.url == item.link %}class="nav-selected nav-path-selected" {% endif %}>
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="nav-selected nav-path-selected" {% endif %}
+        {% if item.external %}target="_blank" {% endif %}>
+        {{ item.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <link rel="stylesheet" href="https://use.typekit.net/zbn8fnp.css">
+  <link rel="stylesheet" href="/styles.css">
+
+  <title>Davinda Innovations{% if page.title %} :: {{ page.title }}{% endif %}</title>
+</head>
+
+<body>
+  <div id="container">
+
+    <header id="header">
+      <h1>Davinda Innovations</h1>
+      {% include navigation.html %}
+    </header>
+
+    <div role="main">
+      {{ content }}
+    </div>
+
+    <footer id="footer">
+      <p>
+        © 2020 Davinda Innovations Pty Ltd &diams;
+        ABN 23 118 782 303 &diams;
+        Designed and Developed by
+        <a href="http://tombrunoli.com/" target="_blank">Tom Brunoli</a>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>

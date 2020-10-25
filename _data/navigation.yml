@@ -1,0 +1,11 @@
+- name: Home
+  link: /
+- name: Shower Shortener
+  link: /shower-shortener/
+- name: About
+  link: /about/
+- name: Contact
+  link: /contact/
+- name: Facebook
+  link: https://www.facebook.com/showershortener
+  external: true
